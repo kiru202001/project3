@@ -1,0 +1,93 @@
+    1* 
+    2  pwd
+    3  d:
+    4  c:
+    5  cd c:\users
+    6  cd C:\My-Drive\Projects\2020\Devops
+    7  cd C:\My-Drive\Projects
+    8  pwd
+    9  cd ..
+   10  cd My-Drive/Projects/2020/Devops/
+   11  git init
+   12  git status
+   13  git remote add origin https://github.com/kiru202001/Project1.git
+   14  git push -u origin master
+   15  git remote add origin https://github.com/kiru202001/Project1.git
+   16  git push -u origin master
+   17  pwd
+   18  mkdir Project2
+   19  cd Project2/
+   20  git init
+   21  git remote add origin https://github.com/kiru202001/Project2.git
+   22  git push -u origin master
+   23  ls -a
+   24  touch test.py
+   25  git test.py commit
+   26  git commit test.py 
+   27  git add test.py 
+   28  git commit test.py "first"
+   29  git commit -m "first"
+   30  git commit -m "fir"
+   31  git add test.py 
+   32  git commit -m "first1"
+   33  git status
+   34  git status
+   35  ls -a
+   36  git add test.py 
+   37  git status
+   38  git log
+   39  git push -u origin master
+   40  git status
+   41  ls -a
+   42  git add test.py 
+   43  git status
+   44  git commit -m "first1"
+   45  git push -u origin master
+   46  git remote add origin https://github.com/kiru202001/Project2.git
+   47  git push -u origin master
+   48  ls -ltr
+   49  ls -la
+   50  cd ..
+   51  mkdir project3
+   52  ll
+   53  cd project3/
+   54  git init
+   55  ls -la
+   56  touch calc.py
+   57  git add calc.py 
+   58  git status
+   59  git commit -m "calc first"
+   60  git remote add origin https://github.com/kiru202001/project3.git
+   61  git push -u origin master
+   62  git --help
+   63  vi calc.py 
+   64  add calc.py 
+   65  git add calc.py 
+   66  git log
+   67  git commit -m "second"
+   68  git log
+   69  git push -u origin master
+   70  git log
+   71  get --help
+   72  git --help
+   73  git merge calc.py
+   74  git branch branch2
+   75  git checkout branch2
+   76  git diff
+   77  git diff calc.py
+   78  vi calc.py 
+   79  git diff
+   80  git commit -m "third"
+   81  git push origin branch2
+   82  pwd
+   83  ls
+   84  vi calc.py 
+   85  git diff
+   86* git add calc.py git status
+   87  git commit -m "junaid"
+   88  git status
+   89  git commit -m "junaid"
+   90  git branch
+   91  git push origin branch2
+   92  history
+   93  history >> gh.txt
